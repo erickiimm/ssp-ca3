@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-  <section name="Haircuts">
+  <section name="Haircut">
     <entry>
       <item>Fade</item>
+      <price>20</price>
+    </entry>
+    <entry>
+      <item>Clean Shave</item>
       <price>15</price>
     </entry>
-   
-    <entry woman="true">
-      <item>Hairstyle</item>
-      <price>25</price>
+    <entry student="true">
+      <item>Student Haircut</item>
+      <price>10</price>
     </entry>
   </section>
-  <section name="Face Shave">
+  <section name="Beard">
     <entry>
       <item>Beard Trim</item>
-      <price>8</price>
+      <price>10</price>
+    </entry>
+    <entry>
+      <item>Facial Shave</item>
+      <price>15</price>
     </entry>
     <entry>
       <item>Line Up</item>
-      <price>5</price>
+      <price>8</price>
     </entry>
-    <entry woman="true">
-      <item>Facial Wax</item>
-      <price>15</price>
+    <entry student="true">
+      <item>Student Beard</item>
+      <price>5</price>
     </entry>
   </section>
   <section name="Hair Colouring">
     <entry>
       <item>Highlights</item>
-      <price>40</price>
+      <price>35</price>
     </entry>
     <entry>
       <item>Tints</item>
-      <price>25</price>
-    </entry>
-    <entry woman="true">
-      <item>Highlights</item>
-      <price>80</price>
-    </entry>
-    <entry woman="true">
-      <item>Tints</item>
-      <price>50</price>
+      <price>30</price>
+    </entry>   
+    <entry student="true">
+      <item>Student Hair Colouring</item>
+      <price>20</price>
     </entry>
   </section>
   </menu>
