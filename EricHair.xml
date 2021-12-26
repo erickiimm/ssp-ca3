@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+  <section name="Haircuts">
+    <entry>
+      <item>Fade</item>
+      <price>15</price>
+    </entry>
+   
+    <entry woman="true">
+      <item>Hairstyle</item>
+      <price>25</price>
+    </entry>
+  </section>
+  <section name="Face Shave">
+    <entry>
+      <item>Beard Trim</item>
+      <price>8</price>
+    </entry>
+    <entry>
+      <item>Line Up</item>
+      <price>5</price>
+    </entry>
+    <entry woman="true">
+      <item>Facial Wax</item>
+      <price>15</price>
+    </entry>
+  </section>
+  <section name="Hair Colouring">
+    <entry>
+      <item>Highlights</item>
+      <price>40</price>
+    </entry>
+    <entry>
+      <item>Tints</item>
+      <price>25</price>
+    </entry>
+    <entry woman="true">
+      <item>Highlights</item>
+      <price>80</price>
+    </entry>
+    <entry woman="true">
+      <item>Tints</item>
+      <price>50</price>
+    </entry>
+  </section>
+  </menu>
