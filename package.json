@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "ssp-ca3",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickiimm/ssp-ca3.git"
+  },
+  "keywords": [
+    "EricHair"
+  ],
+  "author": "Eric Mabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickiimm/ssp-ca3/issues"
+  },
+  "homepage": "https://github.com/erickiimm/ssp-ca3#readme"
+}
