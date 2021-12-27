@@ -40,10 +40,10 @@
     <entry>
       <item>Tints</item>
       <price>30</price>
-    </entry>   
+    </entry>
     <entry student="true">
       <item>Student Hair Colouring</item>
       <price>20</price>
     </entry>
   </section>
-  </menu>
+</menu>
