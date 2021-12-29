@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <img src="img/barber-icon.png" style="width:6%">                               
-                <a class="navbar-brand" href="#">Eric Hair's</a>
+                <a class="navbar-brand" href="#">Eric Hair's Barber</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -36,27 +36,35 @@
         <div class="container">
             <div class="row">
                 <div class="text-center mt-5">
-                     
+                    <style>
+                        body {
+                          background-image: url('img/barber\ background.jpg');
+                          background-size: 135%;
+                        }
+                        </style>                    
                     <p><h1>Welcome to Eric Hair's Barber</h1></p>                    
-                    <p class="lead">Select your service from the menu below</p>
+                    <p class="lead">Add or Delete services from the menu below</p>
                 </div>
                 <div id="results" class="col-lg-8 mb-5 order-2"></div>
                 <div id="menu" class="col-lg-4 mb-5 order-1">
                     <form enctype="application/json" action="/post/json" method="post">
                         <div class="form-group">
-                            <select class="form-control" name="sec_n">
+                            <p class="text-muted text-center">To add a new entree first select from the categories below:</p> 
+                            <select class="form-control" name="sec_n">                                                                
                                 <option value="0">Haircut</option>
                                 <option value="1">Beard</option>
-                                <option value="2">Hair Colouring</option>                              
+                                <option value="2">Hair Colouring</option>                                                         
                             </select>
+                            <p class="text-muted text-center">Type the description of the new item:</p>                                                      
                             <input class="form-control mt-3" type="text" name="item" placeholder="Item">
-                            <input class="form-control mt-3" type="text" name="price" placeholder="Price">
-                            <div class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-block mt-3">Submit</button></div>
+                            <p class="text-muted text-center">Type the price of the new item:</p>
+                            <input class="form-control mt-3" type="text" name="price" placeholder="Price">                            
+                            <div class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-block mt-3">Add</button></div>
                         </div>
                     </form>
                     <div class="d-grid gap-2">
                     <button id="delete" class="btn btn-danger btn-block mt-3">Delete</button></div>
-                    <p class="text-muted text-center">To delete an entree, click the required row first</p>
+                    <p class="text-muted text-center">To delete an entree, simply select and click delete.</p>
                 </div>
             </div>
         </div>
